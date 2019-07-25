@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_height="210dp"
+        android:layout_width="180dp"
+        android:id="@+id/dialog_thumbnail"
+        android:layout_gravity="center"
+        android:src="@mipmap/logo_beta_2"
+        android:contentDescription="@string/thumbnail"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dialog_name"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dialog_price"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pcs"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginRight= "15dp"
+            android:layout_marginEnd= "15dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:id="@+id/dialog_remove"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:contentDescription="@string/remove_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dialog_pcs"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:ems="2"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:id="@+id/dialog_add"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:contentDescription="@string/add_icon"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

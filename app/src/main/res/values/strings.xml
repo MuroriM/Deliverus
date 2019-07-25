@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Deliverus</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="pwd">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_pwd"><u>Forgot Password?</u></string>
+    <string name="alternative">or if you don\'t have an account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_phone_number">Enter your Phone Number</string>
+    <string name="cont">Continue</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="email">E-mail Address</string>
+    <string name="pwd_sign_up_req">6 characters minimum</string>
+    <string name="add_home">Add Home</string>
+    <string name="add_work">Add Work</string>
+    <string name="forgot_pwd_label"><u>Forgot Password?</u></string>
+    <string name="title_activity_forgot_pwd">Forgot Password?</string>
+    <string name="submit_label">Submit</string>
+    <string name="title_activity_reset_pwd">Reset Password</string>
+    <string name="new_pwd_prompt">New Password</string>
+    <string name="reset_label">Reset</string>
+    <string name="security_a_prompt">Answer</string>
+    <string name="proceed_label">Proceed</string>
+    <string name="kenya_code">07</string>
+    <string name="phone_prompt">Phone Number</string>
+    <string name="supermarket_logo">Supermarket Logo</string>
+    <string-array name="security_qs">
+        <item>Select…</item>
+        <item>Favourite movie?</item>
+        <item>Favourite food?</item>
+        <item>Childhood nickname?</item>
+        <item>Town your mother and father met?</item>
+        <item>Favourite car?</item>
+        <item>Childhood bully?</item>
+        <item>Town of your first job?</item>
+        <item>Favourite sport in high school?</item>
+        <item>Favourite teacher in high school?</item>
+    </string-array>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="deliverus_logo">deliverus logo</string>
+    <string name="mpesa_payment">
+        1. Go to M-pesa menu\n
+        2. Select Lipa na Mpesa\n
+        3. Select Buy goods and services\n
+        4. Enter 1233456\n
+        5. Enter amount\n
+        6. Enter your pin\n
+        7. Press OK to confirm payment</string>
+    <string name="safaricom_logo">Safaricom logo</string>
+    <string name="edit">Edit</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="change_password">Change password</string>
+    <string name="user">User</string>
+    <string name="pts">50 points</string>
+    <string name="change_number">Change number</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="history">History</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="search">Search</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="checkout">Checkout</string>
+    <string name="ksh_0">Ksh. 0</string>
+    <string name="total">Total:</string>
+    <string name="preferred_payment_method">Preferred payment method</string>
+    <string name="shop_button">shopButton</string>
+    <string name="user_icon">userIcon</string>
+    <string name="sign_in_icon">sign_in_icon</string>
+    <string name="background_picture">background_picture</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">twitter</string>
+    <string name="linked_in">Linked In</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="pcs">Pcs</string>
+    <string name="item_picture">item_picture</string>
+    <string name="remove_icon">remove icon</string>
+    <string name="add_icon">add icon</string>
+    <string name="reduce_icon">reduce icon</string>
+    <string name="marker">Map Marker</string>
+    <string name="location_confirmation">We spotted you here! Move the map to confirm your location.</string>
+    <string name="cart_badge">Cart Badge</string>
+    <string name="itemSearch">itemSearch</string>
+    <string name="order_details">Order Details</string>
+    <string name="sub_category">sub category</string>
+    <string name="total_with_colon">Total:</string>
+    <string name="ksh_700">Ksh. 700</string>
+    <string name="delivered_by">Delivered by:</string>
+    <string name="deliverer">Deliverer</string>
+    <string name="order_id">Order ID:</string>
+    <string name="_1654564654">1654564654</string>
+    <string name="order_date">Order Date:</string>
+    <string name="_06_06_2017_11_28_pm">06/06/2017 11:28 pm</string>
+    <string name="billed_to">Billed to:</string>
+    <string name="bought_from">Bought from:</string>
+    <string name="supermarket">Supermarket</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="total_amount">Total amount</string>
+    <string name="date_and_time">Date and time</string>
+    <string name="processing_payment">Processing payment</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="your_shopping_will_be_delivered_shortly">Your shopping will be delivered shortly</string>
+    <string name="lipa_na_m_pesa">Lipa Na M-Pesa</string>
+    <string name="back_drop">back drop</string>
+    <string name="category">category</string>
+    <string name="person">person</string>
+    <string name="refresh">refresh</string>
+    <string name="cost">Ksh. %d</string>
+    <string name="delivery_fee">Delivery Fee:</string>
+    <string name="grand_total">Grand Total:</string>
+    <string name="title_activity_maps_test">Map</string>
+    <string name="multiply_string">x</string>
+    <string name="back_image">Back image</string>
+</resources>

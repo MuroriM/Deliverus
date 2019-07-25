@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height= "wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingStart="3dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/order_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/order_detail_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height= "wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingStart="3dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/order_detail_pcs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/order_detail_subtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

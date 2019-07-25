@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:colorForeground">@color/colorAccent</item>
+        <item name="android:dropDownItemStyle">@style/myDropDOwnItemStyle</item>
+        <item name="android:dropDownListViewStyle">@style/myDropDownListStyle</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <!--removing action bar-->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:typeface">serif</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:typeface">serif</item>
+        </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="myDropDOwnItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:text">#000000</item>
+        <item name="android:typeface"> serif</item>
+    </style>
+
+    <style name="myDropDownListStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TextAppearance</item>
+    </style>
+
+    <style name="TextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+</resources>

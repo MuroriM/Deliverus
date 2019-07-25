@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--background-->
+    <item android:drawable="@color/white"/>
+    <!--animated text-->
+    <item>
+        <bitmap
+            android:src="@mipmap/logo_beta"
+            android:gravity="center"/>
+    </item>
+</layer-list>

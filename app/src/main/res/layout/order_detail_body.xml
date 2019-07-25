@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!--height = 60dp; add layout_margin = 0.5dp and cardCornerRadius = 3dp-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardElevation="3dp"
+        android:layout_margin="0.5dp"
+        app:cardCornerRadius="3dp">
+
+        <!--remove background-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <!--remove white-->
+                <TextView
+                    android:id="@+id/order_detail_name"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/name"
+                    android:textSize="13sp"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/order_detail_pcs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/pcs"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/multiply_string"
+                    android:typeface="serif"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/order_detail_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/price"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/order_detail_subtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:text="@string/subtotal"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginEnd="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

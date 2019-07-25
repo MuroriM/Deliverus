@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66ffffff"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="48dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="312dp"
+        android:layout_height="103dp"
+        android:layout_weight="0.08"
+        android:contentDescription="@string/sign_in_icon"
+        android:paddingBottom="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/homelogo"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#47525e"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true" >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/phone_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textColor="#47525e"
+            android:drawableLeft="@drawable/ic_account_circle_black_24dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColorHint="#47525e">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pwd"
+            android:inputType="textPassword"
+            android:textColor="#47525e"
+            android:id="@+id/pwd_sign_in"
+            android:drawableLeft="@drawable/ic_lock_open_black_24dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:text="@string/forgot_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/forgotPwd_textView"
+            android:textColor="#47525e"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:onClick="launchForgotPwd"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedbutton"
+        android:text="@string/sign_in"
+        android:textColor="#FFF"
+        android:textSize="30sp"/>
+
+</LinearLayout>

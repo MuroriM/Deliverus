@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pay_by_cash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whitewebteam.deliverus.EndActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/logo_beta"
+        android:contentDescription="@string/deliverus_logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/your_shopping_will_be_delivered_shortly"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+</LinearLayout>

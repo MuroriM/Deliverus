@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#01579B</color>
+    <color name="colorAccent">#29B6F6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="colorPrimaryTrans">#a03a53b7</color>
+    <color name="colorAccentTrans">#8055BAE8</color>
+    <color name="colorBlackTrans">#a0000000</color>
+    <color name="primary_text_material_light">#00000000</color>
+
+    <color name="tuskys_background">#004E27</color>
+    <color name="nakumatt_background">#2D4F8F</color>
+    <color name="naivas_background">#F08125</color>
+    <color name="uchumi_background">#FE0103</color>
+    <color name="tuskys_background_tint">#f5Fff5</color>
+    <color name="nakumatt_background_tint">#f5f5Ff</color>
+    <color name="naivas_background_tint">#Ffefe7</color>
+    <color name="uchumi_background_tint">#Fff5f5</color>
+    <color name="tuskys_text">#FAC028</color>
+    <color name="blue_background">#F0F8FF</color>
+    <color name="naivas_text">#0F6B5B</color>
+</resources>

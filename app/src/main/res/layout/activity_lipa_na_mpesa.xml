@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lipa_na_mpesa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.whitewebteam.deliverus.LipaNaMpesaActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/safaricom_logo"
+        android:contentDescription="@string/safaricom_logo">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/mpesa_payment"
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/logo_beta"
+            android:contentDescription="@string/deliverus_logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="@string/processing_payment"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:onClick="launchPaymentConfirmation"/>
+
+</LinearLayout>
